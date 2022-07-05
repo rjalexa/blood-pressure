@@ -1,13 +1,16 @@
 """
 Read a new BP readings CSV log and if it's compatible with new_bp_log.csv
 then add the new readings to the latter file but skip existing rows
+PREREQUISITES:
+conda activate blood
+properly formattted bp_log.csv file
 """
 import sys
 import argparse
 import csv
 import pandas as pd
 
-CURRENT_LOG = "new_bp_log.csv"
+CURRENT_LOG = "bp_log.csv"
 MERGED_LOG = "merged.csv"
 
 # if no file argument provided exit saying so
