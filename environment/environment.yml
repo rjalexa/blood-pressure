@@ -1,0 +1,16 @@
+name: blood
+channels:
+  - defaults
+dependencies:
+  - jupyter
+  - matplotlib
+  - nomkl
+  - ipykernel
+  - pandas
+  - numpy
+  - jupyterlab
+  - scipy
+  - seaborn
+  - nb_black
+  - pylint
+prefix: /Users/bob/opt/miniconda3/envs/blood
