@@ -10,6 +10,10 @@ packages = [{include = "blood_pressure"}]
 python = ">=3.10,<3.13"
 jupyter = "^1.0.0"
 numpy = "^1.25.0"
+pandas = "^2.2.2"
+scipy = "^1.14.1"
+seaborn = "^0.13.2"
+statsmodels = "^0.14.2"
 
 
 [build-system]

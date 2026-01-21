@@ -10,7 +10,7 @@ import argparse
 import csv
 import pandas as pd
 
-CURRENT_LOG = "bp_log.csv"
+CURRENT_LOG = "bp_log2.csv"
 MERGED_LOG = "merged.csv"
 
 # if no file argument provided exit saying so
